@@ -1,3 +1,5 @@
 module com.rhtech.java9module {
-    requires java.base; // implicit can be omitted
+    requires java.base;
+    requires jdk.jshell;
+    requires jdk.incubator.httpclient; // implicit can be omitted
 }
